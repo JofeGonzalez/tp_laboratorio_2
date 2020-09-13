@@ -45,7 +45,7 @@
             this.button1.Location = new System.Drawing.Point(12, 109);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 38);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 3;
             this.button1.Text = "OPERAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btnOperar_Click);
@@ -56,7 +56,7 @@
             this.button2.Location = new System.Drawing.Point(159, 109);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 38);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 4;
             this.button2.Text = "LIMPIAR";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -67,7 +67,7 @@
             this.button3.Location = new System.Drawing.Point(307, 109);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(125, 38);
-            this.button3.TabIndex = 2;
+            this.button3.TabIndex = 5;
             this.button3.Text = "CERRAR";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -78,7 +78,7 @@
             this.button4.Location = new System.Drawing.Point(12, 163);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(209, 63);
-            this.button4.TabIndex = 3;
+            this.button4.TabIndex = 6;
             this.button4.Text = "CONVERTIR A BINARIO";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.btnConvertirABinario_Click);
@@ -89,7 +89,7 @@
             this.button5.Location = new System.Drawing.Point(227, 163);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(205, 63);
-            this.button5.TabIndex = 4;
+            this.button5.TabIndex = 7;
             this.button5.Text = "CONVERTIR A DECIMAL";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.btnConvertirADecimal_Click);
@@ -97,10 +97,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 63);
+            this.textBox1.Location = new System.Drawing.Point(12, 61);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(129, 31);
-            this.textBox1.TabIndex = 5;
+            this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
@@ -108,7 +108,7 @@
             this.textBox2.Location = new System.Drawing.Point(307, 63);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(125, 31);
-            this.textBox2.TabIndex = 6;
+            this.textBox2.TabIndex = 2;
             // 
             // comboBox1
             // 
@@ -122,7 +122,7 @@
             this.comboBox1.Location = new System.Drawing.Point(159, 61);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(132, 33);
-            this.comboBox1.TabIndex = 7;
+            this.comboBox1.TabIndex = 1;
             // 
             // textBox3
             // 
