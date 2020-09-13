@@ -1,0 +1,11 @@
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\bin\Debug\CalculadoraJoseGonzalez.exe.config
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\bin\Debug\CalculadoraJoseGonzalez.exe
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\bin\Debug\CalculadoraJoseGonzalez.pdb
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.csprojAssemblyReference.cache
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.Form1.resources
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.Properties.Resources.resources
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.csproj.GenerateResource.cache
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.csproj.CoreCompileInputs.cache
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.exe
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.pdb
+C:\Users\jgonz\source\repos\Entidades\CalculadoraJoseGonzalez\obj\Debug\CalculadoraJoseGonzalez.FormCalculadora.resources
