@@ -42,14 +42,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumno.cs" />
+    <Compile Include="Jornada.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Universidad.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Archivos\Archivos.csproj">
+      <Project>{7c987b17-ae5d-4ed2-844c-5900ac81460a}</Project>
+      <Name>Archivos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClasesAbstractas\ClasesAbstractas.csproj">
       <Project>{946080cf-1a8e-44ce-93ac-00be14a72891}</Project>
       <Name>ClasesAbstractas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj">
+      <Project>{8801ca90-d198-4bdb-976d-f5458e80984b}</Project>
+      <Name>Excepciones</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

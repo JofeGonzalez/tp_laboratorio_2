@@ -7,7 +7,7 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 
 namespace ClasesInstanciables
 {
@@ -52,10 +52,10 @@ namespace ClasesInstanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("CLASES DEL DIA: ");
-            foreach (Universidad.EClases item in this.clasesDelDía)
+            sb.AppendLine($"CLASES DEL DIA: ");
+            foreach (Universidad.EClases clase in this.clasesDelDía)
             {
-                sb.AppendLine(this.ToString());
+                sb.AppendLine(clase.ToString());
             }
             return sb.ToString();
         }

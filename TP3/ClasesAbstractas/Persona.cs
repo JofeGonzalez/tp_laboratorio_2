@@ -1,11 +1,12 @@
-﻿using ClasesAbstractas;
+﻿using EntidadesAbstractas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excepciones;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
@@ -44,13 +45,13 @@ namespace ClasesAbstractas
         }
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad) : this()
         {
-            this.nombre = nombre;
-            this.apellido = apellido;
-            this.nacionalidad = nacionalidad;
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Nacionalidad = nacionalidad;
         }
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
-            this.dni = dni;
+            this.DNI = dni;
         }
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad) : this(nombre, apellido, nacionalidad)
         {
@@ -59,20 +60,15 @@ namespace ClasesAbstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine("Datos de la persona:");
-            sb.AppendFormat("Nombre: {0}", Nombre);
-            sb.AppendFormat("Apellido: {0}", Apellido);
-            sb.AppendFormat("Dni: {0}", DNI);
-            sb.AppendFormat("Nacionalidad: {0}", Nacionalidad);
-
+            sb.AppendLine(string.Format($"NOMBRE COMPLETO: {this.Apellido}, {this.Nombre}"));
+            sb.AppendLine(string.Format($"NACIONALIDAD: {this.Nacionalidad}"));
             return sb.ToString();
         }
         private static int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if (dato < 1 && dato > 99999999)
+            if (dato < 1 || dato > 99999999)
             {
-                throw //dniinvalido
+                throw new DniInvalidoException();
             }
             switch (nacionalidad)
             {
@@ -89,13 +85,13 @@ namespace ClasesAbstractas
                     }
                     break;
             }
-            throw //nacionalidadinvalida
+            throw new NacionalidadInvalidaException();
         }
         private static int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             if (!int.TryParse(dato, out int dni))
             {
-                throw new //dniinvalido
+                throw new DniInvalidoException();
             }
             else
             {

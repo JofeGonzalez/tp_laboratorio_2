@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 
 namespace ClasesInstanciables
 {
@@ -30,7 +30,7 @@ namespace ClasesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.MostrarDatos());
-            sb.AppendFormat("ESTADO DE CUENTA: {0}", (object)this.estadoCuenta);
+            sb.AppendFormat("ESTADO DE CUENTA: {0}\n", (object)this.estadoCuenta);
             sb.AppendLine(this.ParticiparEnClase());
             return sb.ToString();
         }

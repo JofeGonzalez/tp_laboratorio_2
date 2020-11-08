@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Universitario : Persona
     {
@@ -18,11 +18,10 @@ namespace ClasesAbstractas
         }
         public override bool Equals(object obj)
         {
-            if(obj is Universitario)
+            if (obj is Universitario)
             {
-                if(this.legajo == ((Universitario)obj).legajo || this.DNI == ((Universitario)obj).DNI){
+                if ((this.legajo == ((Universitario)obj).legajo || this.DNI == ((Universitario)obj).DNI))
                     return true;
-                }
             }
             return false;
         }
@@ -30,17 +29,13 @@ namespace ClasesAbstractas
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"{base.ToString()}");
-            sb.AppendFormat("LEGAJO NMUMERO: {0}", this.legajo);
+            sb.AppendLine(string.Format($"LEGAJO NUMERO: {this.legajo}"));
             return sb.ToString();
         }
         protected abstract string ParticiparEnClase();
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
-            if (pg1.Equals(pg2))
-            {
-                return true;
-            }
-            return false;
+            return pg1.Equals(pg2);
         }
         public static bool operator !=(Universitario pg1, Universitario pg2)
         {
