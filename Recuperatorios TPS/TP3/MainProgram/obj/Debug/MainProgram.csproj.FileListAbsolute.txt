@@ -1,0 +1,16 @@
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\MainProgram.exe.config
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\MainProgram.exe
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\MainProgram.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\Archivos.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\ClasesAbstractas.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\ClasesInstanciables.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\Excepciones.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\Archivos.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\ClasesAbstractas.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\ClasesInstanciables.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\bin\Debug\Excepciones.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\obj\Debug\MainProgram.csprojAssemblyReference.cache
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\obj\Debug\MainProgram.csproj.CoreCompileInputs.cache
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\obj\Debug\MainProgram.csproj.CopyComplete
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\obj\Debug\MainProgram.exe
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2D.TP3\MainProgram\obj\Debug\MainProgram.pdb
