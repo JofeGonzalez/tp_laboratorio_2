@@ -1,0 +1,16 @@
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Test.exe.config
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Test.exe
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Test.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\ClasesInstanciables.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Gonzalez.Jose.2doParcial.2D.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Archivos.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Excepciones.dll
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\ClasesInstanciables.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Gonzalez.Jose.2doParcial.2D.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Archivos.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\bin\Debug\Excepciones.pdb
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\obj\Debug\Test.exe
+C:\Users\jgonz\source\repos\Gonzalez.Jose.2doParcial.2D\Test\obj\Debug\Test.pdb
