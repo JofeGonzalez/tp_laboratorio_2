@@ -1,0 +1,55 @@
+Menú Principal: Permite entrar a los diferentes Forms como lo son:
+•	Clientes: Permite la creación, modificación o eliminación de Clientes.
+•	Productos: Permite la creación, modificación o eliminación de Productos.
+•	Ventas: Permite ver la lista de pedidos en proceso, agregar nuevas ventas y ver cuando finalizan las ya agregadas.
+
+Clientes
+•	Agregar: Toma los datos escritos en los labels Nombre, Dni y Dirección y agrega un cliente a la base de datos.
+•	Modificar: Toma los datos escritos en los labels Nombre, Dni y Dirección y modifica al cliente cuyo Id coincide con el del label ID.
+•	Eliminar: Toma el dato del label ID y elimina al cliente que coincida con el de la base de datos.
+
+Productos
+•	Agregar: Toma los datos escritos en el label Nombre, y agrega un producto a la base de datos.
+•	Modificar: Toma los datos escritos en el label Nombre y modifica al producto cuyo Id coincide con el del label ID.
+•	Eliminar: Toma el dato del label ID y elimina al producto que coincida con el de la base de datos.
+
+Ventas
+•	Iniciar Dia: Inicia el hilo que simula la preparación de los productos del DataGridView Preparación hasta ser finalizados y puestos en la ListBox Finalizados.
+•	Producto: Permite seleccionar un producto del ComboBox para agregar una venta.
+•	Cliente: Permite seleccionar un cliente del ComboBox para agregar una venta.
+•	Entrega: Permite seleccionar el modo de entrega del ComboBox para agregar una venta.
+•	Agregar Pedido: Al dar click agrega una venta a la base de datos y la muestra en el DataGridView Preparación.
+
+Implementación de la clase 15 a 25
+•	Clase 15: Excepciones
+  o	Proyecto Excepciones
+    	Clase ArchivosException.cs
+    	Clase DniInvalidoException.cs
+    	Clase NombreInvalidoException.cs
+•	Clase 16: Test Unitarios
+  o	Proyecto TestUnitario
+    	Clase TestUnitario.cs
+•	Clase 17: Tipos Genéricos
+  o	Proyecto Archivos
+    	Clase Xml.cs
+•	Clase 18: Interfaces
+  o	Proyecto Archivos
+    	Clase IArchivo.cs
+•	Clase 19: Archivos y Serialización
+  o	Proyecto Archivos
+    	Clase Texto.cs
+    	Clase Xml.cs
+•	Clase 21: SQL
+  o	Base de Datos creada en Microsoft SQL Server Management Studio 18
+•	Clase 22: Bases de Datos
+  o	Proyecto ClasesInstanciables
+    	Clase Sql.cs
+•	Clase 23: Hilos
+  o	Proyecto ClasesInstanciables
+    	Clase Local.cs
+•	Clase 24: Eventos
+  o	Proyecto ClasesInstanciables
+    	Clase Local.cs
+•	Clase 25: Métodos de Extensión
+  o	Proyecto Extensiones
+    	Clase Extensiones.cs
